@@ -119,6 +119,7 @@ padding-top: 12px;
     background-color: var(--Violet);
     background-repeat: no-repeat;
     background-size: unset;
+    
   }
   main{
     margin:60px auto 0px;
@@ -145,6 +146,7 @@ padding-top: 12px;
 
   #seccion2{
     height: 700px;
+    margin-left: 50px;
   }
 
   h1{
@@ -157,26 +159,33 @@ padding-top: 12px;
 
   #seccion2 p{
     height: 98px;
-    font-size: 20px;
+    font-size: 19px;
     text-align: left;
-    padding-right: 17px;
+   
   }
 
   .btn-register{
+    margin-top: 20px;
     text-align: left;
-    margin-bottom: 179px;
+    margin-bottom: 220px;
   }
-
+  
   .btn-register a{
     width:200px;
     height: 58px;
     font-size: 20px;
     padding-top: 14px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
   }
 
   .social{
-    text-align: right;
+   height: 100px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+
+
   }
 
   .media{
@@ -186,8 +195,8 @@ padding-top: 12px;
   .media a{
     width: 44px;
     height: 44px;
-    font-size: 22px;
-    padding:8px;
+    font-size: 19px;
+    padding:10px;
     text-align: center;
   }
 
